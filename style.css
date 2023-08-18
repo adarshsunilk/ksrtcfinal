@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{ 
+    max-width: 100%;
+    
+}
+.topbar{
+    background-color: #1b031b;
+    width: 100%;
+    border-bottom: 3px solid red;
+   height: 35px
+}
+.banner{
+   background-image: url(https://www.keralartc.com/img/main-bg.jpg);
+    width: 100%;
+   height:370px;
+    background-position: center;
+    background-size: cover;
+}
+/* .bdMain{
+    background-image: url(https://www.keralartc.com/img/main-bg.jpg);
+    width: 100%;
+    height: auto;
+} */
+.managercard{
+    width: 100%;
+  /*  height: 12em;*/
+    background-color: white; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.managercard p span{
+    font-size: medium;
+}
+.body{
+    background-color: rgb(243, 239, 234);  
+}
+.body h6{
+    color: red;
+}
+.logistics img{
+    width: 100%;
+    height: 12em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bodyList{
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.colum2{
+       margin-top: 1em;
+       padding: 25px 66px 25px 25px !important;
+    /* padding: 35px; */
+  /*  margin-top: 2em; */
+    
+}
+.colum2 i{
+    font-size: 36px;
+    position: relative;
+    color: red;
+}
+
+.list1{
+    gap: 2em;
+}
+
+.service{
+    text-decoration: none;
+    color: #000;
+}
+.service:hover{
+    text-decoration: block;
+    /* color: red; */
+}
+
+.fooert-sec{
+    width: 100%;
+   /* height: 500px;*/
+    background-color: #1b031b;
+}
+.ftr a{
+color: red;
+}
+.service-sec{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .topbar{
+        display:none;
+    }
+ .service {
+    text-decoration: none;
+    color: #000;
+    font-size: 10px;
+    }
+
+
+.colum2 i {
+    font-size: 25px;
+}
+.colum2 {
+    
+    padding: 25px 47px 25px 25px !important;
+ 
+}
+.service-sec{
+    padding: 0;
+}
+
+
+
+
+
+}
+@media only screen and (min-width:768px) {
+    
+
+.navbar-toggler{
+    position: relative;
+    left: 250px;
+}
+
+}
+@media only screen and (max-width:425px) {
+    .colum2 {
+        padding: 24px 19px 18px 18px !important;
+    }
+    
+    .banner {
+  
+    height: 155px;
+    }
+ 
+}
+
